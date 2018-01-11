@@ -5,6 +5,6 @@ Fully functional Tableau projects can be embedded into an HTML page using the Ta
 In addition, the widgets, such as filters, can be accessed and controlled using JavaScript for a richer user experience. 
 For example, this feature can be used to animate Tableau projects.
 
-Examples
-https://codepen.io/BonnieS__/pen/Vyxvxw
-https://codepen.io/BonnieS__/pen/XVqmPy
+Examples<br/>
+https://codepen.io/BonnieS__/pen/Vyxvxw<br/>
+https://codepen.io/BonnieS__/pen/XVqmPy<br/>
