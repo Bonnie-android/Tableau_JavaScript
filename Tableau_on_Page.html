@@ -1,0 +1,73 @@
+<html>
+<head>
+
+   <link type="text/css" rel="stylesheet" href="http://onlinehelp.tableau.com/samples/en-us/js_api/css/smoothness/jquery-ui-1.10.0.custom.css">
+   <link type="text/css" rel="stylesheet" href="http://onlinehelp.tableau.com/samples/en-us/js_api/css/Modern.css">
+   <link type="text/css" rel="stylesheet" href="http://onlinehelp.tableau.com/samples/en-us/js_api/css/tutorial.css">
+   <script type="text/javascript" src="http://onlinehelp.tableau.com/samples/en-us/js_api/jquery-1.9.1.js"></script>
+   <script type="text/javascript" src="http://onlinehelp.tableau.com/samples/en-us/js_api/jquery-ui-1.10.0.custom.js"></script>
+   <script type="text/javascript" src="http://public.tableau.com/javascripts/api/tableau-2.0.0.min.js"></script>
+   <script type="text/javascript" src="http://onlinehelp.tableau.com/samples/en-us/js_api/tutorial.js"></script>
+
+  
+   <script type="text/javascript">
+var viz, workbook, activeSheet;
+/*********************
+   function initializeVis() {
+      var placeholderDiv = document.getElementById("tableauViz");
+      var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
+      var options = {
+         width: placeholderDiv.offsetWidth,
+         height: placeholderDiv.offsetHeight,
+         hideTabs:false,
+         hideToolbar:false,
+         onFirstInteractive: function() {
+            workbook = viz.getWorkbook();
+            activeSheet = workbook.getActiveSheet();
+            viz = new tableau.Viz(placeholderDiv, url, options);
+         }
+      }    
+   };
+   
+*************************************/
+/*****************************************************/
+function initializeViz() {
+  var placeholderDiv = document.getElementById("tableauViz");
+  var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
+  var options = {
+    width: placeholderDiv.offsetWidth,
+    height: placeholderDiv.offsetHeight,
+    hideTabs: false,
+    hideToolbar: false,
+    onFirstInteractive: function () {
+      workbook = viz.getWorkbook();
+      activeSheet = workbook.getActiveSheet();
+     viz = new tableau.Viz(placeholderDiv, url, options);
+    }
+  }
+   
+}
+
+function filterSingleValue() {
+  activeSheet.applyFilterAsync(
+       "Region",
+       "The Americas",
+        tableau.FilterUpdateType.REPLACE);
+}
+ 
+   $(document).ready(function() {   
+
+      $(initializeViz)
+      $('#tableauViz').html(viz);
+     
+
+    });
+ 
+   </script>
+
+  
+</head>
+<body>
+<div id="tableauViz"></div>
+</body>
+</html>

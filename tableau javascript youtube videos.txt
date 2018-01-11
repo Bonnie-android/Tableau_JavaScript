@@ -1,0 +1,41 @@
+<html>
+<head><title>Learning Tableau and JavaScript</title>
+    <script type="text/javascript" 
+        src="https://public.tableau.com/javascripts/api/tableau-2.js"></script>
+    <script type="text/javascript">
+
+ 
+        var viz;
+
+        window.onload = function() {
+           var vizDiv = document.getElementById('myViz');
+           var vizURL = "https://public.tableau.com/profile/mkovner#!/vizhome/Presents/TreeMap";
+           var options = {width : '600px', height : '540px' };
+           viz = new tableau.Viz(vizDiv, vizURL, options);
+        };
+
+       var tableau;
+
+
+      /**  function exportToPDF() {
+            viz.showExportPDFDialog();
+        } ***/
+    </script>
+<head>
+<body>
+   <div id="myViz"></div>
+</body>
+</html>
+
+https://www.youtube.com/watch?v=Geppur9LDnw&list=PL_qx68DwhYA8e_z9k7uoRw0zayoY35nUJ
+
+https://www.youtube.com/user/tableausoftware/playlists
+
+http://developers.tableau.com
+
+Youtube search #datadev
+
+http://github.com/tableau/JSAPIVideos
+
+chris barrett
+201-981-0818

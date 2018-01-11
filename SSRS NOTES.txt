@@ -1,0 +1,189 @@
+SSRS NOTES
+
+The Wizard
+select data sources and create connections
+Design query to execute against data sources
+Choose type of reports
+Specify basic layout of report
+Specify formatting for report
+
+Shared data source - all reports can use this
+
+New data source - specific to this one project
+
+Wizard
+
+Select Report Type
+tabular
+Matrix (cross tab)
+
+Design table
+Page level data
+Group level data
+Detail level data
+
+Table layout
+stepped
+block
+include subtotals checkbox
+
+Table style
+slate
+forest
+corporate
+bold
+ocean
+generic
+
+
+Deployment Location
+Report Server
+http://localhost/ReportServer
+
+Deployment folder
+SSRS Project 1 using Wizard (user defined)
+
+Report name includes report summary info
+including data source name
+connection strings for named data source
+report type = table
+layout type = block
+style = ocean
+grouping = ID
+Details ProdID, ProdName
+Query used
+Preview Report check box
+
+Preview Tab
+Design Tab in BI Studio
+
+Brings you to the Studio Designer App
+Contains 
+Built-in Fields
+Parameters
+Images
+Data Sources
+Datasets
+
+Toolbox contains Report Items - map, textbox,
+
+Server Explorer - connections. you can add connections
+
+ReportData box containing
+Built in fields for building report
+Parameters folder
+Images
+Data Sources
+Datasets
+
+-----------------------------------
+Create a Report Project in BI Design Studio
+Add a report to the project
+Create datasets to be used in the report
+Build the report Layout
+
+New Project
+Blank Project window
+
+Solution Explorer
+Shared Data Sources
+Shared Data Sets
+Reports
+-- right click on Reports folder(node) and select Add --- New Item
+You can now add
+--Report Wizard
+--Report
+--Data Source
+--Dataset
+
+Select New Report Template .rdl
+Click Add
+You get the Report1.rdl[Design] Screen and Preview
+
+In 'Report Data' Tab I see
+Build-in Fields
+Parameters
+Images
+Data Sources
+Datasets
+
+In the Built-in Fields I see
+Execution Time
+Language
+Overall Page Number
+Overall Total Pages
+Page Name
+Page Number
+Render Format IsInteractive
+Render Format Name
+Report Folder
+Report Name
+Report Server URL
+Total Pages
+User ID
+
+
+In the above Report Data Window Right click on Data Sources Node and select Add New Data Source
+You can create a new connection at this time or select a shared data source reference.
+Checkbox for Use single transaction when processing queries ? what does this mean?
+
+To create connection string select EDIT
+Name server to connect to and also database
+
+What datasets do I want to use to create this report?
+Datasets node in Report Data window.
+Right click - new Dataset
+I see
+--Query
+--Fields
+--Options
+--Filters
+--Parameters
+
+Options 
+--use a shared dataset
+--use a dataset embedded in my report
+
+select --use a dataset embedded in my report
+select the dataset we just created above
+Query type 
+Text or stored procedure
+Text means I can write the SQL
+
+A little box with fx is an expression builder
+
+Query Designer == Edit As Text
+
+From Data Source Node Select Query and add query text
+This is added to the Dataset and fields can be seen.
+
+Build in 
+Debug
+Debuglocal
+Release
+
+Use configuration manager
+
+Save an publish for user use.
+Publish to REPORTING SERVICES SERVER
+http://localhost/ReportServer
+
+The report can now be accessed
+
+=================================================
+Report Builder
+Building a Data Model for users to work with
+
+Data models contain three things
+'data sources' which connect to the database
+'data source views' which connect to the database
+'report models' contain entities that the end users can use
+
+REPORT MODEL TEMPLATE
+
+
+
+
+
+
+

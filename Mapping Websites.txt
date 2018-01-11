@@ -1,0 +1,9 @@
+Image-maps.com
+
+http://www.image-maps.com/map_image.php
+
+bonnie_sterling@hotmail.com
+Mapping_100
+
+Generates polygon coordinates
+http://imagemap-generator.dariodomi.de/

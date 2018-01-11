@@ -1,0 +1,105 @@
+Embed Tableau Views Into Webpages
+
+https://onlinehelp.tableau.com/current/server/en-us/embed.htm
+
+
+https://alightanalytics.com/alight-insights/embedding-tableau-workbooks-wordpress-blogs/
+
+
+Tableau - Embedding Dashboards in Websites
+
+https://answers.uillinois.edu/page.php?id=60568
+
+********************************************************************************
+
+http://www.jeromecukier.net/blog/2012/07/02/embedding-tableau-visualizations-on-the-web/
+
+http://public.tableausoftware.com/views/ + name of your workbook + / + name of your dashboard or sheet
+
+http://public.tableausoftware.com/views/HealthyKidneyExample/HealthyKidney
+
+http://public.tableausoftware.com/views/HealthyKidneyExampleMappedPolygonV1/KidneyPolygonv1
+
+https://public.tableau.com/profile/publish/HealthyKidneyExampleMappedPolygonV1/KidneyPolygonv1#!/publish-confirm
+
+
+
+**********************************************************************************
+
+Tableau Tip: Embedding a Dashboard in a Dashboard
+
+https://youtu.be/tONx4A8xiIs
+https://bensullins.com/tableau-tip-embedding-dashboard-dashboard/
+
+https://bensullins.com/sql-tips-tricks-data-science/
+
+Filling in polygons
+https://tableauandbehold.com/2015/04/13/creating-custom-polygons-on-a-background-image/
+
+
+http://blogs.lib.uconn.edu/outsidetheneatline/2016/05/12/creating-a-custom-polygon-map-for-connecticut-towns-in-tableau/
+
+Name Point(lable point?) x y order (onto path)
+
+YouTube
+How to Create Custom Polygons for Tableau Using Drawing Tool
+https://www.youtube.com/watch?v=6X2HofAUA3Y
+
+1. make the polygon map the polygon
+2. bring point and order into dimension
+3. select polygon
+
+
+Identifier,Path_ID,X,Y
+Victory,1,977,499
+Victory,2,1243,482
+Victory,3,1253,649
+Victory,4,1277,652
+Victory,5,1279,905
+Victory,6,1060,882
+Victory,7,1038,698
+Victory,8,982,698
+Stone,1,982,699
+Stone,2,694,689
+Stone,3,691,689
+Stone,4,691,513
+
+Image-maps.com
+
+http://www.image-maps.com/map_image.php
+
+bonnie_sterling@hotmail.com
+Mapping_100
+
+Generates polygon coordinates
+http://imagemap-generator.dariodomi.de/
+
+Animate your Tableau dashboards on the Web
+By Ben Sullins on February 6, 2015
+https://www.pluralsight.com/blog/data-professional/tableau-animation
+
+Create Next-Level Dashboards with Tableau and D3.js
+https://www.interworks.com/blog/rrouse/2014/10/02/create-next-level-dashboards-tableau-and-d3js
+
+
+http://codepen.io/
+
+http://www.jeromecukier.net/blog/2012/07/02/embedding-tableau-visualizations-on-the-web/
+how to create a viz
+
+https://www.interworks.com/blog/series/tableau-essentials
+
+How to Create Dynamic Tableau Dashboard Layouts with Sliding Containers
+
+https://www.interworks.com/blog/rrouse/2015/07/07/how-create-dynamic-tableau-dashboard-layouts-sliding-containers
+
+http://stevensanne.com/tableau-woes-part-1/
+
+http://stevensanne.com/tableau-woes-part-2/
+
+https://bensullins.com/d3-data-visualization-fundamentals/
+
+
+
+
+
